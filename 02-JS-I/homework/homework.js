@@ -79,12 +79,10 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-if (num < 90){
-  return true;
-} else {
- { return false;
+   ( num  <  90 )
+    return  true ;
+  return  false ;
 }
-
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
@@ -104,7 +102,7 @@ function esPar(num) {
   // Tu código
   if( num % 2 === 0) {
     return true;
-  } else {
+  } else 
     return false;
 }
 
@@ -112,9 +110,9 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if( num % 5 === 0) {
+  if( num % 5 === 0) 
     return true;
-  } else {
+   else 
     return false;
 }
 
